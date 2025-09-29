@@ -48,13 +48,19 @@ feature_labels =   ['Number of dots in the URL', 'Number of hyphens in the URL',
 feature_names = list(X.columns)
 
 # Load the trained model
-with open('C:/Users/nebiy/OneDrive/Documents/phishing streamlit/decision_tree_model.pkl', 'rb') as f:
-    model_dt = pickle.load(f)
-with open('C:/Users/nebiy/OneDrive/Documents/phishing streamlit/neural_network_model.pkl', 'rb') as f:
-    model_nn = pickle.load(f)
-with open('C:/Users/nebiy/OneDrive/Documents/phishing streamlit/log_reg_model.pkl', 'rb') as f:
-    model_lr = pickle.load(f)    
+# with open('C:/Users/nebiy/OneDrive/Documents/phishing streamlit/decision_tree_model.pkl', 'rb') as f:
+#     model_dt = pickle.load(f)
+# with open('C:/Users/nebiy/OneDrive/Documents/phishing streamlit/neural_network_model.pkl', 'rb') as f:
+#     model_nn = pickle.load(f)
+# with open('C:/Users/nebiy/OneDrive/Documents/phishing streamlit/log_reg_model.pkl', 'rb') as f:
+#     model_lr = pickle.load(f)    
 
+with open('decision_tree_model.pkl', 'rb') as f:
+    model_dt = pickle.load(f)
+with open('neural_network_model.pkl', 'rb') as f:
+    model_nn = pickle.load(f)
+with open('log_reg_model.pkl', 'rb') as f:
+    model_lr = pickle.load(f)  
 
 # Add sidebar info
 st.sidebar.title('About')
@@ -159,4 +165,5 @@ if uploaded_file is not None:
         if predictions == 1:
             st.write("<span style='color:red'>Likely from a Phishing Website</span>", unsafe_allow_html=True)
         else:
+
             st.write("<span style='color:green'>Likely from a Legitimate Website</span>", unsafe_allow_html=True)
