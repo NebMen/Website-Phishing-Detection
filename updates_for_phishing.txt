@@ -1,0 +1,12 @@
+Play around with Pappa's streamlit code and see what each part does (header, sidebar, etc.) and make the phishing streamlit look nicer
+
+Make 3 buttons for each model so the user has the choice to choose which model they want to run their dataset with
+
+Display the accuracy, confusion matrix of each model eventually
+
+Change name of directory from pappa's code and make sure feature list is the same. Make sure folder is correct as well. 
+
+
+9/22
+
+Classification Report for all Models (right now only Neural network)

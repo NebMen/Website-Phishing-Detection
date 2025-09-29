@@ -1,0 +1,2 @@
+qty_dot_url,qty_hyphen_url,qty_slash_url,qty_equal_url,qty_and_url,qty_percent_url,length_url,qty_dot_domain,qty_vowels_domain,domain_length,qty_hyphen_directory,qty_slash_directory,qty_percent_directory,directory_length,qty_percent_file,file_length,qty_dot_params,qty_equal_params,qty_and_params,qty_percent_params,params_length,qty_params,time_response,asn_ip,time_domain_activation,time_domain_expiration,qty_ip_resolved,qty_nameservers,qty_mx_servers,ttl_hostname,label
+2,1,12,0,0,0,118,1,4,17,0,12,0,101,0,10,0,0,0,0,0,0,1.494622,20013,1834,356,1,2,1,13680,1
