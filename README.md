@@ -6,4 +6,4 @@ Use "Back to Main Menu" button if you would like to predict with other models.
 
 # Demo
 
-<img width="1578" height="724" alt="image" src="https://github.com/user-attachments/assets/16d53972-9521-4edf-91af-f0f1afa41cce" />
+<img width="831" height="606" alt="image" src="https://github.com/user-attachments/assets/96e50553-9111-4817-88f3-aaeea4cb6756" />
